@@ -47,11 +47,11 @@ A simplified online retail system that enables product searches, cart management
 <products> product_category name price quantity category-specific-info </products>
 <users> username credit_amount type </users> 
 
-###Books:
-<name>
-Author: <author>
-ISBN: <isbn>
-<price> <quantity> left.
+- **Books:**
+- <name>
+- Author: <author>
+- ISBN: <isbn>
+- <price> <quantity> left.
 
 ###Clothing:
 <name>
