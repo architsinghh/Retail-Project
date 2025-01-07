@@ -1,2 +1,59 @@
-# project
-Simplified Online Retail System
+# Amazon-Like Retail System
+
+## Overview
+A simplified online retail system that enables product searches, cart management, and purchases.
+
+### Features
+- **Search Functionality** with AND/OR operations
+- **Shopping Cart Management**
+- **Product Categories**: Books, Clothing, Movies
+- **User Management** with credit tracking
+- **Database Storage** and retrieval
+
+## System Architecture
+
+### Product Categories
+| Category | Attributes |
+|----------|------------|
+| Books    | Name, Price, Quantity, ISBN, Author |
+| Clothing | Name, Price, Quantity, Size, Brand |
+| Movies   | Name, Price, Quantity, Genre, Rating |
+
+
+## Technical Requirements
+
+### Core Components
+- **Product Class Hierarchy**
+- **Custom DataStore Implementation**
+- **Keyword Indexing System**
+- **Shopping Cart Management**
+- **Database Parsing and Saving**
+
+### Performance Specifications
+- O(n*log(n)) search operations
+- Memory leak-free implementation
+- Case-insensitive search
+- FIFO cart ordering
+
+## Database Format
+<products> product_category name price quantity category-specific-info </products>
+<users> username credit_amount type </users> 
+
+Books:
+<name>
+Author: <author>
+ISBN: <isbn>
+<price> <quantity> left.
+
+Clothing:
+<name>
+Size: <size>
+Brand: <brand>
+<price> <quantity> left.
+
+Movies:
+<name>
+Genre: <genre>
+Rating: <rating>
+<price> <quantity> left.
+
