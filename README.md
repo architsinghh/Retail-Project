@@ -1,4 +1,4 @@
-# Amazon-Like Retail System
+# Simplified Online Retail System
 
 ## Overview
 A simplified online retail system that enables product searches, cart management, and purchases.
