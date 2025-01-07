@@ -44,24 +44,40 @@ A simplified online retail system that enables product searches, cart management
 - FIFO cart ordering
 
 ## Database Format
-<products> product_category name price quantity category-specific-info </products>
-<users> username credit_amount type </users> 
+<products>
+book
+Data Abstraction & Problem Solving with C++
+79.99
+20
+978-013292372-9
+Carrano and Henry
 
-- **Books:**
-- <name>
-- Author: <author>
-- ISBN: <isbn>
-- <price> <quantity> left.
+book
+Great Men and Women of Troy
+19.50
+5
+978-000000000-1
+Tommy Trojan
 
-###Clothing:
-<name>
-Size: <size>
-Brand: <brand>
-<price> <quantity> left.
+clothing
+Men's Fitted Shirt
+39.99
+25
+Medium
+J. Crew
 
-###Movies:
-<name>
-Genre: <genre>
-Rating: <rating>
-<price> <quantity> left.
+movie
+Hidden Figures DVD
+17.99
+1
+Drama
+PG
+</products>
+
+<users>
+aturing 100.00 0
+johnvn 50.00 0
+adal 120.00 1
+</users>
+
 
