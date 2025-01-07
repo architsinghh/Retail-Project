@@ -43,7 +43,9 @@ A simplified online retail system that enables product searches, cart management
 - Case-insensitive search
 - FIFO cart ordering
 
-## Database Format
+# Database Format
+
+## Products Section
 <products>
 book
 Data Abstraction & Problem Solving with C++
@@ -74,10 +76,9 @@ Drama
 PG
 </products>
 
+## Users Section
 <users>
 aturing 100.00 0
 johnvn 50.00 0
 adal 120.00 1
 </users>
-
-
