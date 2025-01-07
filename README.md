@@ -19,6 +19,15 @@ A simplified online retail system that enables product searches, cart management
 | Clothing | Name, Price, Quantity, Size, Brand |
 | Movies   | Name, Price, Quantity, Genre, Rating |
 
+### Commands
+AND term1 term2    - Products matching all terms
+OR term1 term2     - Products matching any term
+ADD username hit   - Add item to cart
+VIEWCART username  - Show cart contents
+BUYCART username   - Process purchase
+QUIT filename      - Save and exit
+
+
 
 ## Technical Requirements
 
