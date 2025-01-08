@@ -1,6 +1,6 @@
 # Simplified Online Retail System
 
-## Overview
+## Project Overview
 A simplified online retail system that enables product searches, cart management, and purchases.
 
 ### Features
